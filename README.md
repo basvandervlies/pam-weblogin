@@ -67,7 +67,7 @@ Add the `pam-weblogin.conf` and make it readable only for root (`chmod 600 /etc/
 url = https://sram.surf.nl/pam-weblogin
 token = Bearer <replace with SRAM API TOKEN for your service>
 retries = 3
-attribute = email
+attribute = username
 cache_duration = 30
 verify = /etc/ssl/ca.crt
 ```
